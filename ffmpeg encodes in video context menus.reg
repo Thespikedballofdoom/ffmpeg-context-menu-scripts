@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\*\shell\‌Video: to h264[-CRF 0 -QP 0 YUV]\command]
+[HKEY_CLASSES_ROOT\*\shell\‌Video: to h264[-CRF 1 YUV]\command]
 @="C:\\VideoContextMenu\\playableconvert.bat \"%1\""
 
 [HKEY_CLASSES_ROOT\*\shell\Video: to h264[-CRF 0 -QP 0]\command]
