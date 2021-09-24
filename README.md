@@ -25,3 +25,5 @@ Execute "ffmpeg encodes in video context menus.reg"
 go in regedit, to [HKEY_CLASSES_ROOT\*\shell\], and delete the Video: to h264 keys & delete C:\videocontextmenu
 # thanks
  [to kachurovskiy and his awesome original scripts](https://github.com/kachurovskiy/VideoContextMenu)
+# extra
+[Excellent guide on how to losslessly record with obs (use I444 color space and normal libx264 if you actually want to edit or upload the video though)](https://web.archive.org/web/20210411135255/https://www.texpion.com/2018/07/obs-studio-settings-for-best-quality-recording.html)
