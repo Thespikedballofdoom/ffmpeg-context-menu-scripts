@@ -3,7 +3,7 @@ shit to make your life easier, with & without lossless
 # About
 This will add 4 ffmpeg video scripts to your files' context menu. The scripts convert any given video to h264 in .mp4.
 
-[-CRF 0 -QP 0] Lossless encode, but not playable in certain odd video players, like in steam chat.  
+[-CRF 0 -QP 0] Lossless encode, but not playable in certain rare not-modern video players.  
 [-CRF 15] "Visually lossless" encode, but anyone that looks hard will see it's lossy. Far better filesize than -crf 0 though.   
 [-CRF 25] lossy encode, very good filesize though   
 [-CRF 0 -QP 0 YUV] as good a quality encode as dumb players will allow. 
