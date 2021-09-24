@@ -6,7 +6,7 @@ This will add 4 ffmpeg video scripts to your files' context menu. The scripts co
 [-CRF 0 -QP 0] Lossless encode, but not playable in certain rare not-modern video players.  
 [-CRF 15] "Visually lossless" encode, but anyone that looks hard will see it's lossy. Far better filesize than -crf 0 though.   
 [-CRF 25] lossy encode, very good filesize though   
-[-CRF 0 -QP 0 YUV] as good a quality encode as dumb players will allow. 
+[-CRF 1 YUV] as good a quality encode as dumb players will allow. 
 
 video output name will match the video you select & append h264_(your choice)
 If you want to modify this it's the fourth line in all of the scripts. change h264_ to whatever.
