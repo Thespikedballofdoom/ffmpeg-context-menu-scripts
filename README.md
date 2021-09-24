@@ -21,5 +21,7 @@ Make sure you have ffmpeg installed and added to PATH, so that typing ffmpeg int
 (if you aren't getting a grid from the edit environment variables button, I was frustrated too, you have to click path and then path in the below box)
 Create a folder called videocontextmenu in the base C: directory, and drag all of the .bat scripts into it.
 Execute "ffmpeg encodes in video context menus.reg"
+# Uninstall
+go in regedit, to [HKEY_CLASSES_ROOT\*\shell\], and delete the Video: to h264 keys & delete C:\videocontextmenu
 # thanks
  [to kachurovskiy and his awesome original scripts](https://github.com/kachurovskiy/VideoContextMenu)
