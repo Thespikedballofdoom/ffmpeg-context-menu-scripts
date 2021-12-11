@@ -1,5 +1,6 @@
 # ffmpeg context menu scripts
 shit to make your life easier, with & without lossless 
+![caps](https://user-images.githubusercontent.com/43627353/145680992-1eba1d7a-d820-4491-96e6-8d175fc7d362.png)
 # About
 This will add 4 ffmpeg video scripts to your files' context menu. The scripts convert any given video to h264 in .mp4.
 
