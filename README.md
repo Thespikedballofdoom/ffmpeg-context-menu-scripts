@@ -30,4 +30,4 @@ go in regedit, to [HKEY_CLASSES_ROOT\*\shell\], and delete the Video: to h264 ke
 # thanks
  [to kachurovskiy and his awesome original scripts](https://github.com/kachurovskiy/VideoContextMenu)
 # extra
-[Excellent guide on how to losslessly record with obs (use I444 color space in limited mode and normal libx264 if you actually want to edit or upload the video though)](https://web.archive.org/web/20210411135255/https://www.texpion.com/2018/07/obs-studio-settings-for-best-quality-recording.html)
+[Excellent guide on how to losslessly record with obs (use I444 color space in limited mode and normal libx264 if you actually want to edit or upload the video though. also >60fps seems to be a no go on intense scenes, but it's fine for desktop recording)](https://web.archive.org/web/20210411135255/https://www.texpion.com/2018/07/obs-studio-settings-for-best-quality-recording.html)
