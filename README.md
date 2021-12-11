@@ -3,13 +3,15 @@ shit to make your life easier, with & without lossless
 # About
 This will add 4 ffmpeg video scripts to your files' context menu. The scripts convert any given video to h264 in .mp4.
 
-[-CRF 0 -QP 0] Lossless encode, but not playable in certain rare not-modern video players.  
+[-CRF 0 -QP 0] Lossless encode, but not playable in certain rare not-modern video players. Works in discord but sometimes the thumbnail is messed up.
 [-CRF 15] "Visually lossless" encode, but anyone that looks hard will see it's lossy. Far better filesize than -crf 0 though.   
 [-CRF 25] lossy encode, very good filesize though   
-[-CRF 1 YUV] as good a quality encode as dumb players will allow. 
+[-CRF 33] even more loss, even better filesize
 
-video output name will match the video you select & append h264_(your choice)
-If you want to modify this it's the fourth line in all of the scripts. change h264_ to whatever.
+Last 3 options will convert to YUV color (4:2:0) since it makes discord thumbnails not break. they're playable regardless, remove -pix_fmt yuv240p from the scripts if you don't want this
+
+video output name will match the video you select & append h264(your choice)
+If you want to modify this it's the fourth line in all of the scripts. change whatever.
 # Modifying the scripts
 if you want to modify any of the scripts but don't know what to do, you can read up on the encoder settings here, they aren't terribly complicated:
 https://trac.ffmpeg.org/wiki/Encode/H.264
